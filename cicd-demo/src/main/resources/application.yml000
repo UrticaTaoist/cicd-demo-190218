@@ -1,0 +1,14 @@
+#server:
+#  port: 8001
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh,health,info
+#      base-path: /actuator
+
+#server.port=8001
+#management.endpoints.web.exposure.include=refresh,health,info
