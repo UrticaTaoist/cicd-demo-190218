@@ -13,7 +13,9 @@
         <module>cicd-demo</module>
         <module>cicd-gateway</module>
         <module>cicd-common</module>
-    </modules>
+		<module>cicd-auth</module>
+		<module>cicd-upms</module>
+	</modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

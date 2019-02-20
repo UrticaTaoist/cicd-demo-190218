@@ -1,17 +1,14 @@
 spring:
   application:
-    name: cicd-demo
+    name: cicd-auth
   cloud:
     nacos:
       config:
         server-addr: 127.0.0.1:8848
-#        prefix: service
+        #        prefix: service
         file-extension: yaml
       discovery:
         server-addr: ${spring.cloud.nacos.config.server-addr}
 
 
 
-jasypt:
-  encryptor:
-    password: pigx
